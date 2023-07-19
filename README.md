@@ -47,7 +47,7 @@ The bonus part is an implementation to make the project work even with different
 
 Obviously you will need more than one test file.</br>
 
-This is an example main to attached on get_next_line_bonus.c for run and compile the bonus part:
+This is an example main to use on get_next_line_bonus.c for run and compile the bonus part:
 ```
 int	main(void)
 {
