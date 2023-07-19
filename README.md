@@ -16,6 +16,7 @@ This project is a tool that returns a line from a text file.
  gcc get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=42 && ./a.out
  ```
 You coul try with different BUFFER_SIZE.</br>
+It's a project written on Linux, to make it work on MAC you have to replace `FOPEN_MAX` with `OPEN_MAX` </br></br>
 
 This is an example main for run and compile the program:
 ```
@@ -75,8 +76,19 @@ int	main(void)
 }
 ```
 
-It's a project written on Linux, to make it work on MAC you have to replace `FOPEN_MAX` with `OPEN_MAX` </br></br>
+## Technologies Used:
 
-## Authors
+- **Programming Language**: C
+- **Operating System**: Linux
+- **Compiler**: GCC (GNU Compiler Collection)
+- **C Standard Library**
+- **File Descriptor Handling**: Functions like `open()`, `read()`, and `close()`
+- **String Handling**: Standard library functions from `string.h`
+- **Dynamic Memory Management:**: Functions like `malloc()` and `free()`
 
-### Simone Tartaglia -  startaglia89@gmail.com - <a href="https://github.com/startaglia" target="_blank"><img align="center" src="https://icon-library.com/images/github-icon-svg/github-icon-svg-0.jpg" height="30" width="30" /></a> <a href="https://www.linkedin.com/in/simone-tartaglia-134723248/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/simone-tartaglia-134723248/" height="30" width="30" /></a>
+## Authors:
+
+- **Simone Tartaglia**
+  - Email: [startaglia89@gmail.com](mailto:startaglia89@gmail.com)
+  - GitHub: [startaglia](https://github.com/startaglia)
+  - LinkedIn: [Simone Tartaglia](https://www.linkedin.com/in/simone-tartaglia-134723248/)
